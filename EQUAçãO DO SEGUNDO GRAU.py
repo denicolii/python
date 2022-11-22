@@ -1,0 +1,10 @@
+import math
+a = int(input('Digite o valor de A: '))
+b = int(input('Digite o valor de B: '))
+c = int(input('Digite o valor de C: '))
+delta = ((b*b) - 4* a * c)
+xlinhas = (- b + (math.isqrt(delta)))/ (2*a)
+x2linhas = (- b - (math.isqrt(delta)))/ (2*a)
+print ('O valor de delta é igual a:', delta)
+print ('O valor de X linha é igual a: ', xlinhas)
+print ('O valor de X 2 linhas é igual a: ', x2linhas)
